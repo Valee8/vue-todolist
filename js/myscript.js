@@ -14,7 +14,7 @@ createApp({
     data() {
         return {
             error: false,
-            newTask: [],
+            newTask: "",
             tasks: [
                 { 
                     text: 'Fare i compiti',
@@ -43,7 +43,7 @@ createApp({
                 this.error = false;
             }
 
-            this.newTask = [];
+            this.newTask = "";
         },
 
         deleteTask(indice) {
